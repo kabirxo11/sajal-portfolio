@@ -9,19 +9,19 @@ const Contact = () => {
     {
       icon: <Mail className="h-6 w-6 text-purple-600" />,
       title: 'Email',
-      details: 'sajal@example.com',
-      link: 'mailto:sajal@example.com'
+      details: 'sajalsri3456@gmail.com',
+      link: 'mailto:sajalsri3456@gmail.com'
     },
     {
       icon: <Phone className="h-6 w-6 text-purple-600" />,
       title: 'Phone',
-      details: '+1 (555) 123-4567',
-      link: 'tel:+15551234567'
+      details: '+91 8052777701',
+      link: 'tel:+918052777701'
     },
     {
       icon: <MapPin className="h-6 w-6 text-purple-600" />,
       title: 'Location',
-      details: 'New York, NY, United States',
+      details: 'Lucknow, India',
       link: null
     }
   ];

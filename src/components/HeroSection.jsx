@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
@@ -106,44 +105,45 @@ const HeroSection = () => {
               <img  
                 alt="Sajal, a graphic designer working on creative designs" 
                 className="w-full h-full object-cover"
-               src="https://images.unsplash.com/photo-1675119715594-30fde4bd3dbc" />
-              
-              <motion.div 
-                className="absolute -bottom-6 -right-6 w-48 h-48 bg-white dark:bg-gray-800 rounded-2xl p-4 shadow-lg glass-effect"
-                initial={{ opacity: 0, y: 50, x: 50 }}
-                animate={{ opacity: 1, y: 0, x: 0 }}
-                transition={{ delay: 0.9, duration: 0.5 }}
-              >
-                <div className="flex flex-col h-full justify-between">
-                  <div>
-                    <p className="text-sm text-gray-500 dark:text-gray-400">Experience</p>
-                    <p className="text-2xl font-bold gradient-text">5+ Years</p>
-                  </div>
-                  <div>
-                    <p className="text-sm text-gray-500 dark:text-gray-400">Projects</p>
-                    <p className="text-2xl font-bold gradient-text">200+</p>
-                  </div>
-                </div>
-              </motion.div>
-              
-              <motion.div 
-                className="absolute -top-6 -left-6 w-48 h-48 bg-white dark:bg-gray-800 rounded-2xl p-4 shadow-lg glass-effect"
-                initial={{ opacity: 0, y: -50, x: -50 }}
-                animate={{ opacity: 1, y: 0, x: 0 }}
-                transition={{ delay: 1.1, duration: 0.5 }}
-              >
-                <div className="flex flex-col h-full justify-between">
-                  <div>
-                    <p className="text-sm text-gray-500 dark:text-gray-400">Specializing in</p>
-                    <p className="text-xl font-bold gradient-text">Brand Identity</p>
-                  </div>
-                  <div>
-                    <p className="text-sm text-gray-500 dark:text-gray-400">Also expert in</p>
-                    <p className="text-xl font-bold gradient-text">UI/UX Design</p>
-                  </div>
-                </div>
-              </motion.div>
+                src="https://images.unsplash.com/photo-1675119715594-30fde4bd3dbc" 
+              />
             </div>
+              
+            <motion.div 
+              className="absolute -bottom-6 -right-6 w-48 h-36 bg-white dark:bg-gray-800 rounded-2xl p-4 shadow-lg glass-effect z-10"
+              initial={{ opacity: 0, y: 50, x: 50 }}
+              animate={{ opacity: 1, y: 0, x: 0 }}
+              transition={{ delay: 0.9, duration: 0.5 }}
+            >
+              <div className="flex flex-col h-full justify-between">
+                <div>
+                  <p className="text-sm text-gray-200 dark:text-gray-400">Experience</p>
+                  <p className="text-2xl font-bold gradient-text">5+ Years</p>
+                </div>
+                <div>
+                  <p className="text-sm text-gray-200 dark:text-gray-400">Projects</p>
+                  <p className="text-2xl font-bold gradient-text">200+</p>
+                </div>
+              </div>
+            </motion.div>
+              
+            <motion.div 
+              className="absolute -top-6 -left-6 w-48 h-36 bg-white dark:bg-gray-800 rounded-2xl p-4 shadow-lg glass-effect z-10"
+              initial={{ opacity: 0, y: -50, x: -50 }}
+              animate={{ opacity: 1, y: 0, x: 0 }}
+              transition={{ delay: 1.1, duration: 0.5 }}
+            >
+              <div className="flex flex-col h-full justify-between">
+                <div>
+                  <p className="text-sm text-gray-500 dark:text-gray-400">Specializing in</p>
+                  <p className="text-xl font-bold gradient-text">Brand Identity</p>
+                </div>
+                <div>
+                  <p className="text-sm text-gray-500 dark:text-gray-400">Also expert in</p>
+                  <p className="text-xl font-bold gradient-text">UI/UX Design</p>
+                </div>
+              </div>
+            </motion.div>
           </motion.div>
         </div>
       </div>
