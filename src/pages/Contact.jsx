@@ -27,7 +27,7 @@ const Contact = () => {
   ];
 
   const socialLinks = [
-    { icon: <Instagram size={20} />, href: 'https://instagram.com', label: 'Instagram' },
+    { icon: <Instagram size={20} />, href: 'https://instagram.com/kab1r', label: 'Instagram' },
     { icon: <Twitter size={20} />, href: 'https://twitter.com', label: 'Twitter' },
     { icon: <Dribbble size={20} />, href: 'https://dribbble.com', label: 'Dribbble' },
     { icon: <Linkedin size={20} />, href: 'https://linkedin.com', label: 'LinkedIn' },
