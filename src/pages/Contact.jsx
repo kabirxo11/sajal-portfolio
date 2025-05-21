@@ -30,7 +30,7 @@ const Contact = () => {
     { icon: <Instagram size={20} />, href: 'https://instagram.com/kab1r', label: 'Instagram' },
     { icon: <Twitter size={20} />, href: 'https://twitter.com', label: 'Twitter' },
     { icon: <Dribbble size={20} />, href: 'https://dribbble.com', label: 'Dribbble' },
-    { icon: <Linkedin size={20} />, href: 'https://linkedin.com', label: 'LinkedIn' },
+    { icon: <Linkedin size={20} />, href: 'https://linkedin.com/in/sajal-srivastava-196a0382', label: 'LinkedIn' },
   ];
 
   return (
